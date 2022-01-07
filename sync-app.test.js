@@ -7,6 +7,7 @@ dbMock = [
     'dogpictures.com',
 ]
 
+// 不是測試googleSearch，純練習熟悉jest
 it('difference of .toBe and .toEqual tests', ()=>{
     expect('hello').toBe('hello');
     expect('hello').toEqual('hello');
@@ -43,6 +44,7 @@ it('difference of .toBe and .toEqual tests', ()=>{
     expect({ a: undefined, b: 2 }).toEqual({ b: 2 })
 })
 
+// 不是測試googleSearch，純練習熟悉jest
 it('string test',()=>{
     expect('la la la').toEqual(expect.any(String))
     // console.dir(expect.any(String));
